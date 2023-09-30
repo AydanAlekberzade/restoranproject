@@ -1,0 +1,1341 @@
+.navbar .navlink {
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+.navbar .loginbtnm .btn {
+  border-style: none;
+}
+
+.firstpart {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background-color: #0a0b0a;
+}
+.firstpart .row .darkmood {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #e5dddd;
+  font-weight: 100px;
+}
+.firstpart .row .darkmood h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.firstpart .row .darkmood button {
+  border-radius: 10px;
+  border-color: rgb(154, 154, 49);
+  width: 120px;
+  height: auto;
+}
+.firstpart .row .col-12 .video {
+  width: 100%;
+  height: 100vh;
+}
+
+.secondpart {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondpart .container {
+  margin: 4;
+}
+.secondpart .container .firstphoto {
+  overflow: hidden;
+  position: relative;
+}
+.secondpart .container .firstphoto::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(26, 26, 26);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+}
+.secondpart .container .firstphoto .myfirstphoto {
+  width: 100%;
+  height: 100%;
+  transition: 2s;
+}
+.secondpart .container .firstphoto .myfirstphoto .text {
+  visibility: visible;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 20px;
+  margin-left: 75px;
+  font-size: 13px;
+  color: #e5dddd;
+  font-family: "Times New Roman", Times, serif;
+}
+.secondpart .container .firstphoto:hover .myfirstphoto {
+  transform: scale(1.1);
+  transition: 2s;
+}
+.secondpart .container .firstphoto:hover .myfirstphoto .text {
+  visibility: visible;
+}
+.secondpart .container .firstphoto:hover::after {
+  opacity: 0.5;
+  visibility: visible;
+}
+.secondpart .container .secondphoto {
+  overflow: hidden;
+  position: relative;
+}
+.secondpart .container .secondphoto::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(26, 26, 26);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+}
+.secondpart .container .secondphoto .mysecondphoto {
+  width: 100%;
+  height: 100%;
+  transition: 2s;
+}
+.secondpart .container .secondphoto .mysecondphoto .text {
+  visibility: visible;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 20px;
+  margin-left: 105px;
+  font-size: 13px;
+  color: #e5dddd;
+  font-family: "Times New Roman", Times, serif;
+}
+.secondpart .container .secondphoto:hover .mysecondphoto {
+  transform: scale(1.1);
+  transition: 2s;
+}
+.secondpart .container .secondphoto:hover .mysecondphoto .text {
+  visibility: visible;
+}
+.secondpart .container .secondphoto:hover::after {
+  opacity: 0.5;
+  visibility: visible;
+}
+.secondpart .container .thirdphoto {
+  overflow: hidden;
+  position: relative;
+}
+.secondpart .container .thirdphoto::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(26, 26, 26);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+}
+.secondpart .container .thirdphoto .mythirdphoto {
+  width: 100%;
+  height: 100%;
+  transition: 2s;
+}
+.secondpart .container .thirdphoto .mythirdphoto .text {
+  visibility: visible;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 20px;
+  margin-left: 85px;
+  font-size: 13px;
+  color: #e5dddd;
+  font-family: "Times New Roman", Times, serif;
+}
+.secondpart .container .thirdphoto:hover .mythirdphoto {
+  transform: scale(1.1);
+  transition: 2s;
+}
+.secondpart .container .thirdphoto:hover .mythirdphoto .text {
+  visibility: visible;
+}
+.secondpart .container .thirdphoto:hover::after {
+  opacity: 0.5;
+  visibility: visible;
+}
+
+.thirdpart {
+  overflow: hidden;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: #e3e3e3;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  font-size: 19px;
+}
+
+.fourpart {
+  overflow: hidden;
+  width: 100%;
+  overflow: hidden;
+  background-color: #191a19;
+}
+.fourpart .chefmila {
+  width: auto;
+}
+.fourpart .chefmila .imgmila {
+  width: 100%;
+}
+.fourpart .chefmila .imgmila img {
+  width: auto;
+  height: 95vh;
+}
+.fourpart .ikinci {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fourpart .ikinci .chefmilatext {
+  color: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 2px;
+}
+.fourpart .ikinci .chefmilatext h4 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.fourpart .ikinci .chefmilatext button {
+  border-color: #e3e3e3;
+  color: #e3e3e3;
+  border-radius: 1px;
+}
+.fourpart .ikinci .chefmilatext button:hover {
+  background-color: #e3e3e3;
+  color: #191a19;
+  transition: all 2s ease;
+}
+.fourpart .ikinci .ustlist img {
+  height: auto;
+  width: 100%;
+}
+.fourpart .ikinci .altlist img {
+  height: auto;
+  width: 100%;
+}
+
+.fivepart {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  color: #e3e3e3;
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+}
+.fivepart .list {
+  width: 2px;
+  height: 35px;
+  background-color: rgb(221, 211, 211);
+}
+
+.sixpart {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sixpart .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sixpart .row .cart {
+  width: 70%;
+  position: relative;
+}
+.sixpart .row .cart img {
+  width: 100%;
+}
+.sixpart .row .cart p {
+  color: #e3e3e3;
+  position: absolute;
+  bottom: 10px;
+  margin-left: 44px;
+}
+.sixpart .row .cart h4 {
+  position: absolute;
+  bottom: 70px;
+  color: #e3e3e3;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 50px;
+}
+
+.happen {
+  overflow: hidden;
+  width: 100%;
+  height: 150vh;
+  background-color: #000000;
+  color: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.happen h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+.happen .mini {
+  width: 3px;
+  height: 50px;
+  background-color: #e3e3e3;
+}
+.happen .row {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.happen .row .btn {
+  border-color: rgb(202, 202, 130);
+  color: #828682;
+  font-size: 9px;
+  text-transform: uppercase;
+}
+.happen .row .btn:hover {
+  background-color: rgb(202, 202, 130);
+  color: #191a19;
+}
+.happen .row .firstphoto {
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-image: url("https://soulkitchen.redsun.design/dark/wp-content/uploads/sites/3/2022/06/soulkitchen-271-1024x1024.jpg");
+  position: relative;
+}
+.happen .row .firstphoto .firsttext {
+  position: absolute;
+  transform: translate(35px, 380px);
+}
+.happen .row .firstphoto .firsttext h1 {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  background: none;
+  width: 30%;
+  transform: translateX(110px);
+}
+.happen .row .firstphoto .firsttext h3 {
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 20px;
+}
+.happen .row .firstphoto::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  position: absolute;
+  opacity: 0.5;
+}
+.happen .row .secondphoto {
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://soulkitchen.redsun.design/dark/wp-content/uploads/sites/3/2022/12/soulkitchen-306-1024x1024.jpg");
+  position: relative;
+}
+.happen .row .secondphoto .secondtext {
+  position: absolute;
+  transform: translate(93px, 380px);
+}
+.happen .row .secondphoto .secondtext p {
+  text-transform: uppercase;
+  width: 30%;
+  font-size: 15px;
+  font-family: monospace;
+}
+.happen .row .secondphoto .secondtext h3 {
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 18px;
+}
+.happen .row .secondphoto::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.5;
+}
+.happen .row .thirdphoto {
+  width: 100%;
+  height: 80vh;
+  background-image: url("https://soulkitchen.redsun.design/dark/wp-content/uploads/sites/3/2022/06/soulkitchen-272-1024x1024.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.happen .row .thirdphoto .thirdtext {
+  position: absolute;
+  transform: translate(65px, 380px);
+}
+.happen .row .thirdphoto .thirdtext h1 {
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 35%;
+  transform: translateX(90px);
+}
+.happen .row .thirdphoto .thirdtext h3 {
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.happen .row .thirdphoto::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.newpart {
+  overflow: hidden;
+  width: 100%;
+  height: 60vh;
+  background-image: url("https://soulkitchen.redsun.design/dark/wp-content/uploads/sites/3/2022/12/soulkitchen-280-1600x1600.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.butonumdu {
+  text-align: right;
+}
+.butonumdu .topbutonn {
+  text-align: right;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5019607843);
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5019607843);
+  transition: 0.5s ease;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.butonumdu .topbutonn:hover,
+.butonumdu :focus {
+  color: #ffffff;
+  background: #4a6881;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff, 0 0 100px #008cff;
+}
+
+.contact {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.contact .find {
+  width: 100%;
+  height: 100vh;
+}
+.contact .find .leftpart {
+  width: 100%;
+  height: 100vh;
+  background-color: #0a0b0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #e3e3e3;
+}
+.contact .find .leftpart button {
+  border-color: #e5dddd;
+}
+.contact .find .rightpart {
+  width: 100%;
+  height: auto;
+}
+.contact .find .rightpart img {
+  width: 100%;
+  height: 100vh;
+}
+
+.enquiries {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.enquiries .row {
+  width: 100%;
+  height: auto;
+}
+.enquiries .row .secondleft {
+  width: 100%;
+}
+.enquiries .row .secondleft img {
+  width: 100%;
+  height: 100vh;
+}
+.enquiries .row .secondright {
+  width: 100%;
+  height: 100vh;
+  background-color: #0a0b0a;
+  color: #6a3737;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.enquiries .row .secondright p {
+  font-size: 13px;
+}
+
+.contactlogin {
+  width: 100%;
+  height: 100vh;
+  background-color: #0a0b0a;
+}
+.contactlogin .col-12 img {
+  width: 100%;
+  height: 100vh;
+}
+.contactlogin .login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contactlogin .login h1 {
+  color: #e3e3e3;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+.fours {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0b0a;
+  color: #e3e3e3;
+}
+.fours .mini {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fours .mini i {
+  font-size: 20px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #1a191b;
+  color: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .welcome {
+  font-size: 19px;
+}
+.footer .visitpart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .visitpart h1 {
+  font-size: 20px;
+}
+.footer .reservations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .reservations h1 {
+  font-size: 20px;
+}
+.footer .reservations button {
+  border-color: #e3e3e3;
+  color: #e3e3e3;
+}
+.footer .about h1 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .about ul {
+  list-style-type: none;
+}
+.footer .about .socials {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.slider {
+  width: 100%;
+  height: 40vh;
+  background-color: #191a19;
+}
+
+.firstshop {
+  width: 100%;
+  height: 100vh;
+}
+.firstshop .imagemenu {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://soulkitchen.redsun.design/dark/wp-content/uploads/sites/3/2022/12/soulkitchen-307-1200x900.jpg");
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+.firstshop .imagemenu h1 {
+  font-size: 48px;
+}
+.firstshop .imagemenu p {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.firstshop .imagemenu button {
+  border: #000000;
+  background-color: burlywood;
+  color: #000000;
+  border-color: #000000;
+}
+
+.secondshop {
+  width: 100%;
+  height: 55vh;
+  background-color: #0a0b0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.secondshop i {
+  font-size: 30px;
+  margin-left: 55px;
+}
+
+.third {
+  width: 100%;
+  height: 140vh;
+  background-color: #0a0b0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third .container {
+  width: 100%;
+  height: 100vh;
+}
+.third .container .row {
+  width: 100%;
+  height: auto;
+}
+.third .container .row .mycard {
+  background-color: #0a0b0a;
+}
+.third .container .row .mycard .cardbody .btndir {
+  background-color: rgb(0, 0, 0);
+  color: #5d1028;
+  border-color: #6a3d5d;
+  font-family: monospace;
+}
+.third .container .row .mycard .cardbody .btndir:hover {
+  background-color: #6a3d5d;
+  color: #fff;
+  font-family: serif;
+  transition: 2s;
+  font-size: 13px;
+}
+
+.fourshop {
+  width: 100%;
+  height: 130vh;
+  background-color: #0a0b0a;
+  color: #fff;
+}
+.fourshop h1 {
+  font-size: 46px;
+}
+.fourshop .minif {
+  width: 3px;
+  height: 30px;
+  background-color: #fff;
+  transform: translateX(760px);
+}
+.fourshop .shopall {
+  margin-left: 90px;
+}
+.fourshop .secondfourshop .mycard {
+  background-color: #0a0b0a;
+}
+.fourshop .secondfourshop .mycard .cardtitle {
+  font-size: 15px;
+  font-family: futara;
+}
+.fourshop .secondfourshop .mycard .btnvdr {
+  background-color: black;
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.fourshop .secondfourshop .mycard .btnvdr:hover {
+  background-color: #2929ab;
+  color: #000000;
+}
+.fourshop .secondfourshop .shopall {
+  color: #fff0f0;
+  transform: translate(600px, 60px);
+  border-color: #c5b91c;
+}
+.fourshop .secondfourshop .shopall:hover {
+  background-color: #c5b91c;
+  color: #000000;
+  border-color: black;
+}
+
+.fiveshop {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.fiveshop .content {
+  position: absolute;
+  background-image: url("https://soulkitchen.redsun.design/dark/wp-content/uploads/sites/3/2022/11/soulkitchen-91-1600x1600.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fiveshop .content h1,
+.fiveshop .content h2 {
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 4px;
+}
+.fiveshop .content P {
+  font-size: 28px;
+  color: #2f0707;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.sixshop {
+  width: 100%;
+  height: 80vh;
+  background-color: #0a0b0a;
+}
+.sixshop .mycon {
+  width: 70%;
+  height: 40vh;
+  background-color: #191a19;
+  transform: translate(220px, 140px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #e3e3e3;
+}
+.sixshop .mycon .butontip {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.sixshop .mycon .butontip button {
+  color: #fff;
+  border-color: #e3e3e3;
+}
+
+.allproducts {
+  width: 100%;
+  height: auto;
+  background-color: #0a0b0a;
+}
+.allproducts .mysoulimage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.allproducts .mysoulimage img {
+  width: 30%;
+}
+.allproducts .mycard {
+  background-color: #0a0b0a;
+  border-style: hidden;
+  box-shadow: 20px 20px 50px rgb(156, 135, 135);
+}
+.allproducts .mycard .cardtitle {
+  font-size: 15px;
+  font-family: futara;
+}
+.allproducts .mycard .menimbutond {
+  font-size: 15px;
+  background-color: rgb(0, 0, 0);
+  color: #dd0000;
+  border-style: none;
+}
+.allproducts .mycard .menimbutond:hover {
+  background-color: rgb(74, 40, 40);
+  color: #f9eded;
+}
+.allproducts .mycard .thisbuton {
+  background-color: #000000;
+  color: #726d26;
+  border-style: none;
+}
+.allproducts .mycard .thisbuton:hover {
+  color: #000000;
+  background-color: #726d26;
+}
+.allproducts .mycard .heartbtn {
+  border-style: none;
+  margin-left: 7px;
+}
+.allproducts .topbutonn {
+  text-align: right;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5019607843);
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5019607843);
+  transition: 0.5s ease;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.allproducts .topbutonn:hover,
+.allproducts :focus {
+  color: #ffffff;
+  background: #4a6881;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff, 0 0 100px #008cff;
+}
+
+.cart {
+  height: auto;
+}
+.cart h4 {
+  margin: 0;
+  text-align: right;
+  margin-right: 50px;
+}
+.cart .buttof {
+  margin-left: 30px;
+}
+
+.productdetails {
+  background-color: #0a0b0a;
+  color: #fff;
+}
+
+.mybackground {
+  width: 100%;
+  height: 100vh;
+  border-color: #2929ab;
+}
+
+.explore {
+  width: 100%;
+  height: 160vh;
+  background-color: #0a0b0a;
+}
+.explore .firstsoul {
+  width: 100%;
+  height: 30vh;
+}
+.explore .firstsoul .ff img {
+  width: 100%;
+  height: 50vh;
+}
+.explore .firstsoul .zz img {
+  width: 100%;
+  height: 50vh;
+}
+.explore .firstsoul .secondsoul {
+  width: 100%;
+  height: 50vh;
+}
+.explore .firstsoul .secondsoul .cc img {
+  width: 10%;
+  height: 30vh;
+}
+.explore .firstsoul .secondsoul .kk img {
+  width: 100%;
+  height: 30vh;
+}
+.explore .firstsoul .secondsoul .oo img {
+  width: 100%;
+  height: 30vh;
+}
+
+.dark * {
+  background-color: #000000;
+  color: #fff;
+}
+
+.light * {
+  background-color: #d8cdb0;
+  color: #000000;
+}
+.light .firstpart .darkmood {
+  background-color: #d8cdb0;
+  color: #000000;
+}
+.light .secondpart .text {
+  background: none;
+}
+.light .secondpart .text p,
+.light .secondpart .text h1 {
+  background: none;
+  color: #f8f8f8;
+}
+.light .header {
+  background-color: #d8cdb0 !important;
+  color: #000000 !important;
+}
+.light .header .navbar-nav .nav-link {
+  color: black;
+}
+
+.sixpart .cart h4,
+.sixpart .cart p {
+  background: none;
+}
+
+.happen .firsttext {
+  background: none;
+}
+.happen .firsttext h1,
+.happen .firsttext h3 {
+  background: none;
+  color: #fff;
+}
+.happen .secondtext {
+  background: none;
+}
+.happen .secondtext h1,
+.happen .secondtext h3 {
+  background: none;
+  color: #fff;
+}
+.happen .secondtext .minifoodmenu {
+  background: none;
+}
+.happen .secondtext .minifoodmenu p {
+  background: none;
+  color: #fff;
+}
+.happen .thirdtext {
+  background: none;
+}
+.happen .thirdtext h1,
+.happen .thirdtext h3 {
+  background: none;
+  color: #fff;
+}
+
+.firstshop .imagemenu h1,
+.firstshop .imagemenu p,
+.firstshop .imagemenu button {
+  background: none;
+  color: #a8a4a4;
+}
+.firstshop .imagemenu button {
+  background-color: #060101;
+}
+
+.third .mycard .container .row .cardtitle {
+  color: #000000;
+}
+
+.sixshop .mycon h2,
+.sixshop .mycon p {
+  background: none;
+  color: #d8cdb0;
+}
+.sixshop .butontip {
+  background: none;
+}
+
+.fourshop .minif {
+  background-color: #000000;
+}
+.fourshop .shopall {
+  background-color: #493b3b;
+}
+
+.contact .find .leftpart {
+  background-color: #d8cdb0;
+}
+.contact .enquiries .secondright {
+  background-color: #d8cdb0;
+}
+.contact .enquiries .secondright h1,
+.contact .enquiries .secondright h5,
+.contact .enquiries .secondright p {
+  color: #000000;
+}
+.contact .contactlogin h1 {
+  color: #000000;
+}
+.contact .contactlogin .formcontrol {
+  background-color: #000000;
+  color: #726d26;
+}
+.contact .contactlogin button {
+  background-color: #2f0707;
+}
+
+.fiveshop {
+  background: none;
+}
+.fiveshop .content h1,
+.fiveshop .content h2,
+.fiveshop .content p {
+  background: none;
+}
+.fiveshop .content h1,
+.fiveshop .content h2 {
+  color: #e2dbe7;
+  font-family: "Times New Roman", Times, serif;
+}
+.fiveshop .content p {
+  color: rgb(140, 69, 69);
+}
+
+.enquiries .row .secondright h1,
+.enquiries .row .secondright h5,
+.enquiries .row .secondright p {
+  background: none;
+  color: #dfdcdc;
+}
+.enquiries .row .secondright h1 {
+  font-family: curcive;
+}
+
+.cart .tablem {
+  background: none;
+  --bs-table-bg: #d8cdb0;
+}
+.cart .tablem span {
+  background-color: #d8cdb0;
+}
+
+.wishlist table {
+  background: none;
+  --bs-table-bg: #d8cdb0;
+  margin-bottom: 0;
+}
+
+.allproducts .mycard .heartbtn {
+  background-color: #d8cdb0;
+}
+
+.dashboard table {
+  --bs-table-bg: #d8cdb0;
+}
+
+.dark .firstpart button {
+  color: white;
+}
+.dark .firstpart button:hover {
+  background-color: #c5b91c;
+  color: #000000;
+}
+.dark .secondpart .text {
+  background: none;
+}
+.dark .secondpart .text p,
+.dark .secondpart .text h1 {
+  background: none;
+}
+.dark .sixpart .cart h4,
+.dark .sixpart .cart p {
+  background: none;
+}
+.dark .firstshop h1,
+.dark .firstshop p {
+  background: none;
+}
+.dark .sixshop h2,
+.dark .sixshop p {
+  background: none;
+}
+.dark .sixshop .butontip {
+  background: none;
+}
+.dark .contact .leftpart {
+  background: none;
+}
+.dark .contact .secondright {
+  background: none;
+}
+.dark .contact .contactlogin h1 {
+  color: white;
+}
+.dark .cart .tablem {
+  background: none;
+  --bs-table-bg: #0000;
+}
+.dark .cart .tablem span {
+  background-color: #000000;
+}
+.dark .cart .tablem td {
+  color: white;
+}
+.dark .cart .tablem thead th {
+  color: #bfba72;
+}
+.dark .wishlist table {
+  background: none;
+  --bs-table-bg: #0000;
+  margin-bottom: 0;
+}
+.dark .wishlist table thead th {
+  color: #bfba72;
+}
+.dark .wishlist table td {
+  color: white;
+}
+.dark .allproducts .mycard .heartbtn {
+  background-color: #000000;
+}
+.dark .dashboard table {
+  --bs-table-bg: #00000;
+}
+.dark .dashboard table thead th {
+  color: #9671b7;
+}
+.dark .dashboard table tr td {
+  color: white;
+}
+
+@media only screen and (max-width: 391px) {
+  body {
+    overflow-x: hidden;
+  }
+  body .fourpart .row .chefmila .imgmila {
+    width: 100%;
+  }
+  body .fourpart .row .chefmila .imgmila img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  body .fourpart .row .chefmila .chefmilatext {
+    margin-bottom: 10px;
+  }
+  body .fourpart .row .chefmila .chefmilatext h4 {
+    margin-top: 10px;
+  }
+  body .fivepart {
+    width: 100%;
+  }
+  body .fivepart h1,
+  body .fivepart p {
+    width: 100%;
+    text-align: center;
+  }
+  body .sixpart {
+    width: 100%;
+    height: auto;
+  }
+  body .sixpart .cart {
+    margin-top: 12px;
+    margin-left: 44px;
+    width: 100%;
+  }
+  body .happen {
+    height: auto;
+  }
+  body .happen .row {
+    height: auto;
+  }
+  body .happen .row .secondphoto {
+    margin-top: 12px;
+  }
+  body .happen .row .thirdphoto {
+    margin-top: 12px;
+  }
+  body .footer .container .row .col-12 h5,
+  body .footer .container .row .col-12 p {
+    text-align: center;
+  }
+  body .footer .container .row .visitpart {
+    margin-top: 30px;
+  }
+  body .cart {
+    overflow: hidden;
+  }
+  body .cart .d-flex img {
+    display: none;
+  }
+  body .cart .tablem {
+    overflow: hidden;
+  }
+  body .cart .tablem button {
+    margin-top: 5px;
+    font-size: 13px;
+  }
+  body .shop {
+    overflow: hidden;
+  }
+  body .firstshop {
+    overflow: hidden;
+  }
+  body .third {
+    height: 330vh;
+    overflow: hidden;
+  }
+  body .fourshop {
+    height: auto;
+    overflow: hidden;
+  }
+  body .fiveshop {
+    height: auto;
+    overflow: hidden;
+  }
+  body .sixshop .mycon {
+    display: none;
+  }
+  body .secondshop {
+    height: auto;
+    overflow: hidden;
+  }
+}
+.filterbuttons {
+  width: 96%;
+  text-align: right;
+  border: none;
+}
+.filterbuttons input {
+  border-radius: 3px;
+  border-style: hidden;
+  border: none;
+  box-shadow: 15px 5px 30px 5px red;
+  color: #c4a9a9;
+  margin-left: 2px;
+  height: 4vh;
+}
+
+.dashboard .bitn {
+  --glow-color: rgb(217, 176, 255);
+  --glow-spread-color: rgba(191, 123, 255, 0.781);
+  --enhanced-glow-color: rgb(231, 206, 255);
+  --btn-color: rgb(100, 61, 136);
+  border: 0.25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em 0.25em var(--glow-color), 0 0 4em 1em var(--glow-spread-color), inset 0 0 0.75em 0.25em var(--glow-color);
+  text-shadow: 0 0 0.5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+}
+.dashboard .bitn::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(0.9em);
+  opacity: 0.7;
+  transform: perspective(2em) rotateX(35deg) scale(1, 0.6);
+}
+.dashboard .bitn:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em 0.25em var(--glow-color), 0 0 4em 2em var(--glow-spread-color), inset 0 0 0.75em 0.25em var(--glow-color);
+}
+.dashboard .bitn:active {
+  box-shadow: 0 0 0.6em 0.25em var(--glow-color), 0 0 2.5em 2em var(--glow-spread-color), inset 0 0 0.5em 0.25em var(--glow-color);
+}
+.dashboard table {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

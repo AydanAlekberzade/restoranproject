@@ -1,0 +1,1542 @@
+// *,body{
+//     overflow-x: hidden;
+// }
+
+.navbar {
+  .navlink {
+    color: aliceblue;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+  }
+  .loginbtnm {
+    .btn {
+      border-style: none;
+    }
+  }
+}
+
+.firstpart {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background-color: #0a0b0a;
+
+  .row {
+    .darkmood {
+      width: 100%;
+      height: 100vh;
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: #e5dddd;
+      font-weight: 100px;
+
+      h1 {
+        font-family: "Times New Roman", Times, serif;
+      }
+      button {
+        border-radius: 10px;
+        border-color: rgb(154, 154, 49);
+        width: 120px;
+        height: auto;
+      }
+    }
+    .col-12 {
+      .video {
+        width: 100%;
+        height: 100vh;
+      }
+    }
+  }
+}
+
+.secondpart {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    margin: 4;
+
+    .firstphoto {
+      overflow: hidden;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(26, 26, 26);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.4s ease;
+      }
+      .myfirstphoto {
+        width: 100%;
+        height: 100%;
+        transition: 2s;
+        .text {
+          visibility: visible;
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          bottom: 20px;
+          margin-left: 75px;
+          font-size: 13px;
+          color: #e5dddd;
+          font-family: "Times New Roman", Times, serif;
+        }
+      }
+      &:hover {
+        .myfirstphoto {
+          transform: scale(1.1);
+          transition: 2s;
+          .text {
+            visibility: visible;
+          }
+        }
+        &::after {
+          opacity: 0.5;
+          visibility: visible;
+        }
+      }
+    }
+    .secondphoto {
+      overflow: hidden;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(26, 26, 26);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.4s ease;
+      }
+      .mysecondphoto {
+        width: 100%;
+        height: 100%;
+        transition: 2s;
+        .text {
+          visibility: visible;
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          bottom: 20px;
+          margin-left: 105px;
+          font-size: 13px;
+          color: #e5dddd;
+          font-family: "Times New Roman", Times, serif;
+        }
+      }
+      &:hover {
+        .mysecondphoto {
+          transform: scale(1.1);
+          transition: 2s;
+          .text {
+            visibility: visible;
+          }
+        }
+        &::after {
+          opacity: 0.5;
+          visibility: visible;
+        }
+      }
+    }
+
+    .thirdphoto {
+      overflow: hidden;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(26, 26, 26);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.4s ease;
+      }
+      .mythirdphoto {
+        width: 100%;
+        height: 100%;
+        transition: 2s;
+        .text {
+          visibility: visible;
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          bottom: 20px;
+          margin-left: 85px;
+          font-size: 13px;
+          color: #e5dddd;
+          font-family: "Times New Roman", Times, serif;
+        }
+      }
+      &:hover {
+        .mythirdphoto {
+          transform: scale(1.1);
+          transition: 2s;
+          .text {
+            visibility: visible;
+          }
+        }
+        &::after {
+          opacity: 0.5;
+          visibility: visible;
+        }
+      }
+    }
+  }
+}
+
+.thirdpart {
+  overflow: hidden;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: #e3e3e3;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  font-size: 19px;
+}
+
+.fourpart {
+  overflow: hidden;
+  width: 100%;
+  overflow: hidden;
+  background-color: #191a19;
+  .chefmila {
+    width: auto;
+    .imgmila {
+      width: 100%;
+      img {
+        width: auto;
+        height: 95vh;
+      }
+    }
+  }
+  .ikinci {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .chefmilatext {
+      color: #e3e3e3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      letter-spacing: 2px;
+
+      h4 {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      button {
+        border-color: #e3e3e3;
+        color: #e3e3e3;
+        border-radius: 1px;
+        &:hover {
+          background-color: #e3e3e3;
+          color: #191a19;
+          transition: all 2s ease;
+        }
+      }
+    }
+    .ustlist {
+      img {
+        height: auto;
+        width: 100%;
+      }
+    }
+    .altlist {
+      img {
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.fivepart {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  color: #e3e3e3;
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  .list {
+    width: 2px;
+    height: 35px;
+    background-color: rgb(221, 211, 211);
+  }
+}
+
+.sixpart {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .cart {
+      width: 70%;
+      position: relative;
+      img {
+        width: 100%;
+      }
+      p {
+        color: #e3e3e3;
+        position: absolute;
+        bottom: 10px;
+        margin-left: 44px;
+      }
+      h4 {
+        position: absolute;
+        bottom: 70px;
+        color: #e3e3e3;
+        font-family: "Times New Roman", Times, serif;
+        margin-left: 50px;
+      }
+    }
+  }
+}
+
+.happen {
+  overflow: hidden;
+  width: 100%;
+  height: 150vh;
+  background-color: #000000;
+  color: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+  }
+  .mini {
+    width: 3px;
+    height: 50px;
+    background-color: #e3e3e3;
+  }
+  .row {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .btn {
+      border-color: rgb(202, 202, 130);
+      color: #828682;
+      font-size: 9px;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: rgb(202, 202, 130);
+        color: #191a19;
+      }
+    }
+    .firstphoto {
+      width: 100%;
+      height: 80vh;
+      background-size: cover;
+      background-image: url("https://soulkitchen.redsun.design/dark/wp-content/uploads/sites/3/2022/06/soulkitchen-271-1024x1024.jpg");
+      position: relative;
+      .firsttext {
+        position: absolute;
+        transform: translate(35px, 380px);
+
+        h1 {
+          font-size: 10px;
+          text-transform: uppercase;
+          letter-spacing: 0.5rem;
+          background: none;
+          width: 30%;
+          transform: translateX(110px);
+        }
+
+        h3 {
+          text-transform: uppercase;
+          width: 100%;
+          font-size: 20px;
+        }
+      }
+    }
+
+    .firstphoto::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: #000000;
+      position: absolute;
+      opacity: 0.5;
+    }
+
+    .secondphoto {
+      width: 100%;
+      height: 80vh;
+      background-size: cover;
+      background-position: center;
+      background-image: url("https://soulkitchen.redsun.design/dark/wp-content/uploads/sites/3/2022/12/soulkitchen-306-1024x1024.jpg");
+      position: relative;
+      .secondtext {
+        position: absolute;
+        transform: translate(93px, 380px);
+        p {
+          text-transform: uppercase;
+          width: 30%;
+          font-size: 15px;
+          font-family: monospace;
+        }
+
+        h3 {
+          text-transform: uppercase;
+          width: 100%;
+          font-size: 18px;
+        }
+      }
+    }
+
+    .secondphoto::before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000000;
+      opacity: 0.5;
+    }
+    .thirdphoto {
+      width: 100%;
+      height: 80vh;
+      background-image: url("https://soulkitchen.redsun.design/dark/wp-content/uploads/sites/3/2022/06/soulkitchen-272-1024x1024.jpg");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      .thirdtext {
+        position: absolute;
+        transform: translate(65px, 380px);
+        h1 {
+          font-size: 15px;
+          text-transform: uppercase;
+          width: 35%;
+          transform: translateX(90px);
+        }
+        h3 {
+          text-transform: uppercase;
+          font-size: 17px;
+        }
+      }
+    }
+    .thirdphoto::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-color: #000000;
+      position: absolute;
+      opacity: 0.5;
+    }
+  }
+}
+
+.newpart {
+  overflow: hidden;
+  width: 100%;
+  height: 60vh;
+  background-image: url("https://soulkitchen.redsun.design/dark/wp-content/uploads/sites/3/2022/12/soulkitchen-280-1600x1600.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.butonumdu {
+  text-align: right;
+  .topbutonn {
+    text-align: right;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+
+  .topbutonn:hover,
+  :focus {
+    color: #ffffff;
+    background: #4a6881;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+      0 0 100px #008cff;
+  }
+}
+.contact {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  .find {
+    width: 100%;
+    height: 100vh;
+    // background-color: #4cb14c;
+
+    .leftpart {
+      width: 100%;
+      height: 100vh;
+      background-color: #0a0b0a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: #e3e3e3;
+      button {
+        border-color: #e5dddd;
+      }
+    }
+    .rightpart {
+      width: 100%;
+      height: auto;
+      img {
+        width: 100%;
+        height: 100vh;
+      }
+    }
+  }
+}
+
+.enquiries {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+  .row {
+    width: 100%;
+    height: auto;
+    .secondleft {
+      width: 100%;
+      img {
+        width: 100%;
+        height: 100vh;
+      }
+    }
+
+    .secondright {
+      width: 100%;
+      height: 100vh;
+      background-color: #0a0b0a;
+      color: #6a3737;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+.contactlogin {
+  width: 100%;
+  height: 100vh;
+  background-color: #0a0b0a;
+
+  .col-12 {
+    img {
+      width: 100%;
+      height: 100vh;
+    }
+  }
+
+  .login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+      color: #e3e3e3;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 40px;
+    }
+  }
+}
+
+.fours {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0b0a;
+  color: #e3e3e3;
+  .mini {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    i {
+      font-size: 20px;
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #1a191b;
+  color: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .welcome {
+    font-size: 19px;
+  }
+  .visitpart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+      font-size: 20px;
+    }
+  }
+
+  .reservations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+      font-size: 20px;
+    }
+    button {
+      border-color: #e3e3e3;
+      color: #e3e3e3;
+    }
+  }
+  .about {
+    h1 {
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    ul {
+      list-style-type: none;
+    }
+    .socials {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  }
+}
+
+.slider {
+  width: 100%;
+  height: 40vh;
+  background-color: #191a19;
+}
+
+.firstshop {
+  width: 100%;
+  height: 100vh;
+
+  .imagemenu {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://soulkitchen.redsun.design/dark/wp-content/uploads/sites/3/2022/12/soulkitchen-307-1200x900.jpg");
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    h1 {
+      font-size: 48px;
+    }
+    p {
+      font-size: 30px;
+      font-family: "Times New Roman", Times, serif;
+    }
+    button {
+      border: #000000;
+      background-color: burlywood;
+      color: #000000;
+      border-color: #000000;
+    }
+  }
+  //    .imagemenu::after{
+  //     content: "";
+  //     position: absolute;
+  //     top: 0;
+  //     left: 0;
+  //     background-color: #000000;
+  //     opacity: 0.7;
+  //     width: 100%;
+  //     height: 100vh;
+  //    }
+}
+
+.secondshop {
+  width: 100%;
+  height: 55vh;
+  background-color: #0a0b0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+  i {
+    font-size: 30px;
+    margin-left: 55px;
+  }
+}
+
+.third {
+  width: 100%;
+  height: 140vh;
+  background-color: #0a0b0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    width: 100%;
+    height: 100vh;
+    .row {
+      width: 100%;
+      height: auto;
+      .mycard {
+        background-color: #0a0b0a;
+        .cardbody {
+          .btndir {
+            //    border-style: none;
+            background-color: rgb(0, 0, 0);
+            color: #5d1028;
+            border-color: #6a3d5d;
+            font-family: monospace;
+            &:hover {
+              background-color: #6a3d5d;
+              color: #fff;
+              font-family: serif;
+              transition: 2s;
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.fourshop {
+  width: 100%;
+  height: 130vh;
+  background-color: #0a0b0a;
+  color: #fff;
+
+  h1 {
+    font-size: 46px;
+  }
+  .minif {
+    width: 3px;
+    height: 30px;
+    background-color: #fff;
+    transform: translateX(760px);
+  }
+  .shopall {
+    margin-left: 90px;
+  }
+
+  .secondfourshop {
+    .mycard {
+      background-color: #0a0b0a;
+      .cardtitle {
+        font-size: 15px;
+        font-family: futara;
+      }
+      .btnvdr {
+        background-color: black;
+        font-size: 12px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+
+        &:hover {
+          background-color: #2929ab;
+          color: #000000;
+        }
+      }
+    }
+
+    .shopall {
+      color: #fff0f0;
+      transform: translate(600px, 60px);
+      border-color: #c5b91c;
+      &:hover {
+        background-color: #c5b91c;
+        color: #000000;
+        border-color: black;
+      }
+    }
+  }
+}
+.fiveshop {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  .content {
+    position: absolute;
+    background-image: url("https://soulkitchen.redsun.design/dark/wp-content/uploads/sites/3/2022/11/soulkitchen-91-1600x1600.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1,
+    h2 {
+      color: #000000;
+      font-size: 50px;
+      letter-spacing: 4px;
+    }
+    P {
+      font-size: 28px;
+      color: #2f0707;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+  }
+}
+
+.sixshop {
+  width: 100%;
+  height: 80vh;
+  background-color: #0a0b0a;
+
+  .mycon {
+    width: 70%;
+    height: 40vh;
+    background-color: #191a19;
+    transform: translate(220px, 140px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #e3e3e3;
+    .butontip {
+      width: 30%;
+      display: flex;
+      justify-content: space-evenly;
+
+      button {
+        color: #fff;
+        border-color: #e3e3e3;
+      }
+    }
+  }
+}
+
+.allproducts {
+  width: 100%;
+  height: auto;
+  background-color: #0a0b0a;
+  .mysoulimage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 30%;
+    }
+  }
+
+  .mycard {
+    background-color: #0a0b0a;
+    border-style: hidden;
+    box-shadow: 20px 20px 50px rgb(156, 135, 135);
+    .cardtitle {
+      font-size: 15px;
+      font-family: futara;
+    }
+    .menimbutond {
+      font-size: 15px;
+      background-color: rgb(0, 0, 0);
+      color: #dd0000;
+      border-style: none;
+      &:hover {
+        background-color: rgb(74, 40, 40);
+        color: #f9eded;
+      }
+    }
+    .thisbuton {
+      background-color: #000000;
+      color: #726d26;
+      border-style: none;
+      &:hover {
+        color: #000000;
+        background-color: #726d26;
+      }
+    }
+    .heartbtn {
+      border-style: none;
+      margin-left: 7px;
+    }
+  }
+
+  .topbutonn {
+    text-align: right;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+
+  .topbutonn:hover,
+  :focus {
+    color: #ffffff;
+    background: #4a6881;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+      0 0 100px #008cff;
+  }
+}
+.cart {
+  height: auto;
+
+  h4 {
+    margin: 0;
+    text-align: right;
+    margin-right: 50px;
+  }
+  .buttof {
+    margin-left: 30px;
+  }
+}
+
+.productdetails {
+  background-color: #0a0b0a;
+  color: #fff;
+}
+
+.mybackground {
+  width: 100%;
+  height: 100vh;
+  border-color: #2929ab;
+}
+
+.explore {
+  width: 100%;
+  height: 160vh;
+  background-color: #0a0b0a;
+  .firstsoul {
+    width: 100%;
+    height: 30vh;
+    .ff {
+      img {
+        width: 100%;
+        height: 50vh;
+      }
+    }
+    .zz {
+      img {
+        width: 100%;
+        height: 50vh;
+      }
+    }
+    .secondsoul {
+      width: 100%;
+      height: 50vh;
+      .cc {
+        img {
+          width: 10%;
+          height: 30vh;
+        }
+      }
+      .kk {
+        img {
+          width: 100%;
+          height: 30vh;
+        }
+      }
+      .oo {
+        img {
+          width: 100%;
+          height: 30vh;
+        }
+      }
+    }
+  }
+}
+
+.dark {
+  * {
+    background-color: #000000;
+    color: #fff;
+  }
+}
+
+.light {
+  * {
+    background-color: #d8cdb0;
+    color: #000000;
+  }
+  .firstpart {
+    .darkmood {
+      background-color: #d8cdb0;
+      color: #000000;
+    }
+  }
+  .secondpart {
+    .text {
+      background: none;
+      p,
+      h1 {
+        background: none;
+        color: #f8f8f8;
+      }
+    }
+  }
+  .header {
+    background-color: #d8cdb0 !important;
+    color: #000000 !important;
+    .navbar-nav {
+      .nav-link {
+        color: black;
+      }
+    }
+  }
+}
+.sixpart {
+  .cart {
+    h4,
+    p {
+      background: none;
+    }
+  }
+}
+.happen {
+  .firsttext {
+    background: none;
+    h1,
+    h3 {
+      background: none;
+      color: #fff;
+    }
+  }
+  .secondtext {
+    background: none;
+    h1,
+    h3 {
+      background: none;
+      color: #fff;
+    }
+    .minifoodmenu {
+      background: none;
+      p {
+        background: none;
+        color: #fff;
+      }
+    }
+  }
+
+  .thirdtext {
+    background: none;
+    h1,
+    h3 {
+      background: none;
+      color: #fff;
+    }
+  }
+}
+.firstshop {
+  .imagemenu {
+    h1,
+    p,
+    button {
+      background: none;
+      color: #a8a4a4;
+    }
+    button {
+      background-color: #060101;
+    }
+  }
+}
+.third {
+  .mycard {
+    .container {
+      .row {
+        .cardtitle {
+          color: #000000;
+        }
+      }
+    }
+  }
+}
+.sixshop {
+  .mycon {
+    h2,
+    p {
+      background: none;
+      color: #d8cdb0;
+    }
+  }
+
+  .butontip {
+    background: none;
+  }
+}
+.fourshop {
+  .minif {
+    background-color: #000000;
+  }
+  .shopall {
+    background-color: #493b3b;
+  }
+}
+.contact {
+  .find {
+    .leftpart {
+      background-color: #d8cdb0;
+    }
+  }
+  .enquiries {
+    .secondright {
+      background-color: #d8cdb0;
+      h1,
+      h5,
+      p {
+        color: #000000;
+      }
+    }
+  }
+  .contactlogin {
+    h1 {
+      color: #000000;
+    }
+    .formcontrol {
+      background-color: #000000;
+      color: #726d26;
+    }
+    button {
+      background-color: #2f0707;
+    }
+  }
+}
+.fiveshop {
+  background: none;
+  .content {
+    h1,
+    h2,
+    p {
+      background: none;
+    }
+    h1,
+    h2 {
+      color: #e2dbe7;
+      font-family: "Times New Roman", Times, serif;
+    }
+    p {
+      color: rgb(140, 69, 69);
+    }
+  }
+}
+
+.enquiries {
+  .row {
+    .secondright {
+      h1,
+      h5,
+      p {
+        background: none;
+        color: #dfdcdc;
+      }
+      h1 {
+        font-family: curcive;
+      }
+    }
+  }
+}
+
+.cart {
+  .tablem {
+    background: none;
+    --bs-table-bg: #d8cdb0;
+    span {
+      background-color: #d8cdb0;
+    }
+  }
+}
+
+.wishlist {
+  table {
+    background: none;
+    --bs-table-bg: #d8cdb0;
+    margin-bottom: 0;
+  }
+}
+
+.allproducts {
+  .mycard {
+    .heartbtn {
+      background-color: #d8cdb0;
+    }
+  }
+}
+
+.dashboard {
+  table {
+    --bs-table-bg: #d8cdb0;
+  }
+}
+
+.dark {
+  .firstpart {
+    button {
+      color: #ffff;
+      &:hover {
+        background-color: #c5b91c;
+        color: #000000;
+      }
+    }
+  }
+  .secondpart {
+    .text {
+      background: none;
+      p,
+      h1 {
+        background: none;
+      }
+    }
+  }
+  .sixpart {
+    .cart {
+      h4,
+      p {
+        background: none;
+      }
+    }
+  }
+
+  .firstshop {
+    h1,
+    p {
+      background: none;
+    }
+  }
+  .sixshop {
+    h2,
+    p {
+      background: none;
+    }
+    .butontip {
+      background: none;
+    }
+  }
+  .contact {
+    .leftpart {
+      background: none;
+    }
+    .secondright {
+      background: none;
+    }
+    .contactlogin {
+      h1 {
+        color: #ffff;
+      }
+    }
+  }
+  .cart {
+    .tablem {
+      background: none;
+      --bs-table-bg: #0000;
+      span {
+        background-color: #000000;
+      }
+      td {
+        color: #ffff;
+      }
+      thead {
+        th {
+          color: #bfba72;
+        }
+      }
+    }
+  }
+  .wishlist {
+    table {
+      background: none;
+      --bs-table-bg: #0000;
+      margin-bottom: 0;
+      thead {
+        th {
+          color: #bfba72;
+        }
+      }
+      td {
+        color: #ffff;
+      }
+    }
+  }
+  .allproducts {
+    .mycard {
+      .heartbtn {
+        background-color: #000000;
+      }
+    }
+  }
+  .dashboard {
+    table {
+      --bs-table-bg: #00000;
+      thead {
+        th {
+          color: #9671b7;
+        }
+      }
+      tr {
+        td {
+          color: #ffff;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 391px) {
+  body {
+    overflow-x: hidden;
+    .fourpart {
+      .row {
+        .chefmila {
+          .imgmila {
+            width: 100%;
+            img {
+              background-size: cover;
+              background-position: center;
+              width: 100%;
+            }
+          }
+          .chefmilatext {
+            margin-bottom: 10px;
+            h4 {
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+    .fivepart {
+      width: 100%;
+      h1,
+      p {
+        width: 100%;
+        text-align: center;
+      }
+    }
+    .sixpart {
+      width: 100%;
+      height: auto;
+      .cart {
+        margin-top: 12px;
+        margin-left: 44px;
+        width: 100%;
+      }
+    }
+    .happen {
+      height: auto;
+      .row {
+        height: auto;
+        .secondphoto {
+          margin-top: 12px;
+        }
+        .thirdphoto {
+          margin-top: 12px;
+        }
+      }
+    }
+    .footer {
+      .container {
+        .row {
+          .col-12 {
+            h5,
+            p {
+              text-align: center;
+            }
+          }
+          .visitpart {
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+    .cart {
+      overflow: hidden;
+      .d-flex {
+        img {
+          // width: 380px;
+          display: none;
+        }
+      }
+      .tablem {
+        overflow: hidden;
+        button {
+          margin-top: 5px;
+          font-size: 13px;
+        }
+      }
+    }
+    .shop {
+      overflow: hidden;
+    }
+    .firstshop {
+      overflow: hidden;
+    }
+
+    .third {
+      height: 330vh;
+      overflow: hidden;
+    }
+    .fourshop {
+      height: auto;
+      overflow: hidden;
+    }
+    .fiveshop {
+      height: auto;
+      overflow: hidden;
+    }
+    .sixshop {
+      .mycon {
+        display: none;
+      }
+    }
+    .secondshop {
+      height: auto;
+      overflow: hidden;
+    }
+  }
+}
+
+.filterbuttons {
+  width: 96%;
+  text-align: right;
+
+  border: none;
+  input {
+    border-radius: 3px;
+    border-style: hidden;
+    border: none;
+    box-shadow: 15px 5px 30px 5px red;
+    color: #c4a9a9;
+    margin-left: 2px;
+    height: 4vh;
+  }
+}
+
+.dashboard {
+  .bitn {
+    --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(100, 61, 136);
+    border: 0.25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em 0.25em var(--glow-color),
+      0 0 4em 1em var(--glow-spread-color),
+      inset 0 0 0.75em 0.25em var(--glow-color);
+    text-shadow: 0 0 0.5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+  }
+  .bitn::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(0.9em);
+    opacity: 0.7;
+    transform: perspective(2em) rotateX(35deg) scale(1, 0.6);
+  }
+  .bitn:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em 0.25em var(--glow-color),
+      0 0 4em 2em var(--glow-spread-color),
+      inset 0 0 0.75em 0.25em var(--glow-color);
+  }
+  .bitn:active {
+    box-shadow: 0 0 0.6em 0.25em var(--glow-color),
+      0 0 2.5em 2em var(--glow-spread-color),
+      inset 0 0 0.5em 0.25em var(--glow-color);
+  }
+
+  table {
+    margin: 0;
+  }
+}
